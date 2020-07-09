@@ -1,0 +1,70 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#newIcon > .label{
+    -fx-graphic: url("../icon/iconfinder_New_document_132726.png");
+}
+#saveIcon > .label{
+    -fx-graphic: url("../icon/iconfinder_Save_132607.png");
+}
+#openIcon > .label{
+    -fx-graphic: url("../icon/iconfinder_Folder_132707.png");
+}
+#closeIcon > .label{
+    -fx-graphic: url("../icon/iconfinder_Delete_132746.png");
+}
+#newIcon > .accelerator-text{
+    -fx-graphic: none;
+}
+#saveIcon > .accelerator-text{
+    -fx-graphic: none;
+}
+#openIcon > .accelerator-text{
+    -fx-graphic: none;
+}
+#closeIcon > .accelerator-text{
+    -fx-graphic: none;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #828282;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+#Utilisateur .tab-label {
+	-fx-graphic: url("../icon/iconfinder_system-users_118828.png");
+}
+#Expert .tab-label {
+	-fx-graphic: url("../icon/3790073-20.png");
+}
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #96b946;
+}
+
+.text-area {
+	-fx-text-fill: red 
+}
